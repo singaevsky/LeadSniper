@@ -1,0 +1,21 @@
+inn,name,revenue,site,cat_evidence,source,cat_product,employees,okved_main
+7705946271,"АО ""Переводческие технологии""",1250000000,https://translationtech.ru,найден ключевое слово: sdl trados,mock_data,sdl trados,120,63.11
+7810004447,"ООО ""Глобал Коннект""",850000000,https://globalconnect.spb.ru,найден ключевое слово: translation memory,mock_data,translation memory,85,74.30
+6671083633,"ООО ""Локализация Про""",250000000,https://localizationpro.ru,найден ключевое слово: memoq,mock_data,memoq,60,62.01
+7729342181,"ООО ""Смарткат Солюшнс""",180000000,https://smartcat-solutions.ru,найден ключевое слово: smartcat,mock_data,smartcat,45,63.11
+7704302751,"ООО ""Мемсорс Технолоджис""",320000000,https://memsource-tech.ru,найден ключевое слово: memsource,mock_data,memsource,70,62.01
+7705744477,"ООО ""Вордфаст Консалтинг""",150000000,https://wordfast-consulting.ru,найден ключевое слово: wordfast,mock_data,wordfast,35,74.30
+7706004897,"ООО ""Омегат Транслейт""",110000000,https://omegat-translate.ru,найден ключевое слово: omegat,mock_data,omegat,25,74.30
+7704746761,"ООО ""XTM Локализейшн""",210000000,https://xtm-localization.ru,найден ключевое слово: xtm,mock_data,xtm,50,63.11
+7709082530,"ООО ""Локализе Платформа""",450000000,https://lokalise-platform.ru,найден ключевое слово: lokalise,mock_data,lokalise,90,62.01
+7705884484,"ООО ""Краудин Солюшн""",190000000,https://crowdin-solution.ru,найден ключевое слово: crowdin,mock_data,crowdin,40,62.01
+7706281350,"ООО ""Трансифекс Системс""",160000000,https://transifex-systems.ru,найден ключевое слово: transifex,mock_data,transifex,30,62.01
+7704145340,"ООО ""Фрейз Технолоджи""",280000000,https://phrase-technology.ru,найден ключевое слово: phrase,mock_data,phrase,55,62.01
+7709080847,"ООО ""Смартлинг Сервис""",350000000,https://smartling-service.ru,найден ключевое слово: smartling,mock_data,smartling,75,62.01
+7708062250,"ООО ""ТМС Локализейшн""",220000000,https://tms-localization.ru,найден ключевое слово: tms,mock_data,tms,65,74.30
+7705836640,"ООО ""Локализейшн Солюшнс""",140000000,https://localization-solutions.ru,найден ключевое слово: локализация,mock_data,,40,63.11
+7704337341,"ООО ""Память Переводов""",130000000,https://translation-memory.ru,найден ключевое слово: память переводов,mock_data,translation memory,35,74.30
+7706544140,"ООО ""Терминология Про""",170000000,https://terminology-pro.ru,найден ключевое слово: терминологическая база,mock_data,,28,74.30
+7704236274,"ООО ""Переводческие Технолоджис""",200000000,https://translation-tech.ru,найден ключевое слово: переводческие технологии,mock_data,,50,74.30
+7705634231,"ООО ""Программное Обеспечение Перевода""",185000000,https://translation-software.ru,найден ключевое слово: программное обеспечение для перевода,mock_data,,42,62.01
+7704835241,"ООО ""CAT Системы Про""",260000000,https://cat-systems-pro.ru,найден ключевое слово: cat,mock_data,cat,58,62.01
