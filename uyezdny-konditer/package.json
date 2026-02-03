@@ -1,0 +1,77 @@
+{
+  "name": "uyezdny-konditer-monorepo",
+  "version": "1.0.0",
+  "description": "B2B2C маркетплейс для кондитеров с поддержкой конструктора тортов и оптовых закупок",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"npm run dev:backend\" \"npm run dev:frontend\"",
+    "dev:all": "docker-compose up --build",
+    "dev:backend": "cd backend && npm run start:dev",
+    "dev:frontend": "cd frontend && npm run dev",
+    "dev:python": "cd python-service && python -m uvicorn src.main:app --reload --host 0.0.0.0 --port 8000",
+    "build": "npm run build:backend && npm run build:frontend",
+    "build:backend": "cd backend && npm run build",
+    "build:frontend": "cd frontend && npm run build",
+    "build:python": "cd python-service && poetry install",
+    "test": "npm run test:backend && npm run test:frontend",
+    "test:backend": "cd backend && npm run test",
+    "test:frontend": "cd frontend && npm run test",
+    "test:python": "cd python-service && pytest",
+    "install:all": "npm run install:backend && npm run install:frontend && npm run install:python",
+    "install:backend": "cd backend && npm install",
+    "install:frontend": "cd frontend && npm install",
+    "install:python": "cd python-service && pip install -r requirements.txt",
+    "docker:dev": "docker-compose up --build",
+    "docker:prod": "docker-compose -f docker-compose.prod.yml up --build -d",
+    "docker:down": "docker-compose down",
+    "docker:prod-down": "docker-compose -f docker-compose.prod.yml down",
+    "docker:clean": "docker system prune -a --volumes",
+    "lint": "npm run lint:backend && npm run lint:frontend",
+    "lint:backend": "cd backend && npm run lint",
+    "lint:frontend": "cd frontend && npm run lint",
+    "format": "prettier --write .",
+    "prepare": "husky install"
+  },
+  "keywords": [
+    "marketplace",
+    "b2b2c",
+    "pastry",
+    "cakes",
+    "constructor",
+    "multitenant",
+    "nestjs",
+    "react",
+    "microservices"
+  ],
+  "author": "Uyezdny Konditer Team",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.2.0",
+    "husky": "^8.0.0",
+    "lint-staged": "^14.0.0",
+    "prettier": "^3.0.0"
+  },
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx,json,md}": [
+      "prettier --write"
+    ]
+  },
+  "workspaces": [
+    "frontend",
+    "backend",
+    "shared/types",
+    "python-service"
+  ],
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/username/uyezdny-konditer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/username/uyezdny-konditer/issues"
+  },
+  "homepage": "https://github.com/username/uyezdny-konditer#readme"
+}
