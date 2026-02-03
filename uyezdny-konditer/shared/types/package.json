@@ -1,0 +1,29 @@
+{
+  "name": "@uyezdny-konditer/types",
+  "version": "1.0.0",
+  "description": "Shared TypeScript types for Uyezdny Konditer project",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "lint": "eslint src --ext ts --report-unused-disable-directives --max-warnings 0",
+    "format": "prettier --write \"src/**/*.{ts,md}\""
+  },
+  "devDependencies": {
+    "typescript": "^5.0.2",
+    "@types/node": "^20.4.5",
+    "eslint": "^8.45.0",
+    "prettier": "^3.0.0",
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "author": "Uyezdny Konditer Team",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  }
+}
